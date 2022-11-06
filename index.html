@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmrnt js operations</title>
+</head>
+
+<body>
+    <h2>---------- ASSIGNMENT ---------</h2>
+    <p><b># 1 : Create two variables and alert their sum , multiplication , & divide var1 by var2 and see if you get the
+            desired output or not.</b></p>
+    <form>
+        var1 : <input type="text" id="firstNumber" /><br>
+        var2: <input type="text" id="secondNumber" /><br>
+        <input type="button" onClick="multiplyBy()" Value="Multiply" />
+        <input type="button" onClick="divideBy()" Value="Divide" />
+        <input type="button" onClick="sumBy()" Value="sum" />
+    </form>
+    <p>The Result is : <br>
+        <span id="result"></span>
+    </p>
+    <p><b># 2 : Create a variable A and assign an integer value to it then increment the variable and assign it to the
+            new variable B.</b></p>
+            <p>let a = 3;
+                const b = a++;
+            console.log(`a:${a},b:${b}`)</p>
+
+    <p><b># 3 : Create a variable and assign a string value ‘Hello’ to it. Take the characters by using a greater then
+            (>) operator to check if the value of the left operand is greater than the right operator. If yes then it
+            returns true else false.
+        </b></p>
+        <p> both false</p>
+
+    <p><b># 4 : What Would be the results of the following statements below.? Result must be in Boolean .</b></p>
+    <ul>
+        <li>console.log(10 > "5")<b>=true</b></li>
+        <li>console.log(2 > true) <b>=true</b></li>
+        <li>console.log(1 > false) <b>=true</b></li>
+        <li>console.log(1 > "") <b>=true</b></li>
+        <li>console.log('' == '0' ) <b>=false</b></li>
+        <li>console.log(1 > " ")<b>=true</b></li>
+        <li>console.log(1 > null)<b>=true</b></li>
+        <li>console.log(10 > "a")<b>=false</b></li>
+        <li>console.log(10 > NaN)<b>=false</b></li>
+        <li>console.log(10 > undefined)<b>=false</b></li>
+        <li>console.log(0 == '' )<b>=true</b></li>
+        <li>console.log(a > 5 || b > 5)<b>=not define</b></li>
+        <li>console.log(0 == '0')<b>=true</b></li>
+    </ul>
+
+    <p><b># 5 :  What  would be the output of the following code ? 
+
+        let str="Hello"
+        let num=100;
+ console.log(str || num)</b></p>
+ <p>Hello</p>
+
+</body>
+<script>
+    // function multiplyBy() {
+    //     var1 = document.getElementById("firstNumber").value;
+    //     var2 = document.getElementById("secondNumber").value;
+    //     document.getElementById("result").innerHTML = num1 * num2;
+    // }
+
+    // function divideBy() {
+    //     var1 = document.getElementById("firstNumber").value;
+    //     var2 = document.getElementById("secondNumber").value;
+    //     document.getElementById("result").innerHTML = num1 / num2;
+    // }
+    // function sumBy() {
+    //     var1 = document.getElementById("firstNumber").value;
+    //     var2 = document.getElementById("secondNumber").value;
+    //     document.getElementById("result").innerHTML = num1 / num2; // }
+
+    let a = 3;
+    const b = a++;
+console.log(`a:${a},b:${b}`)
+    
+
+    // let var1="hello"
+    // let var2=5
+    // console.log(var1 >=var2);
+    // console.log(var1 <=var2);
+
+
+    // console.log(10 > "5")
+    // console.log(2 > true)
+    // console.log(1 > false)
+    // console.log(1 > "")
+    // console.log('' == '0')
+    // console.log(1 > " ")
+    // console.log(1 > null)
+    // console.log(10 > "a")
+    // console.log(10 > NaN)
+    // console.log(10 > undefined)
+    // console.log(0 == '')
+    // console.log(a > 5 || b > 5)
+    // console.log(0 == '0')
+
+    let str="Hello"
+           let num=100;
+    console.log(str || num)
+
+</script>
+
+</html>
